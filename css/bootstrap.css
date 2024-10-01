@@ -276,6 +276,9 @@ p {
   margin-bottom: 1rem;
 }
 
+.colorir{
+  background-color: #ffc6df;
+}
 .section-1{
  padding: 5%;
  
@@ -301,6 +304,10 @@ p {
   width: 5%;
  
 
+
+}
+.colorir-2{
+
 }
 
 .titulolin{
@@ -315,19 +322,19 @@ p {
 }
 
 .progress{
-  width: 30%;
+  width: 100%;
   
 }
 
 
 
 .section-4{
-  background-color: #ffc6df;
+  
 }
 
 .cards{
   align-items: center;
-  background-color: #ffc6df;
+  
 }
 
 .card-lin{
@@ -861,10 +868,21 @@ progress {
   margin-left: auto;
 }
 
+@media (max-width:576px) {
+  
+  .card-lin{
+    float: none;
+    width: 100%;
+    align-items: center;
+    margin-left: 15%;
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
